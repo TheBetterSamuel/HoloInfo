@@ -10,10 +10,18 @@ h1{
     margin: 0;
 }
 
+h2{
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+}
+
 p{
     font-family: "Montserrat", Helvetica, sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .videcontainer{
@@ -54,4 +62,12 @@ p{
 .headerimg{
     width: 15%;
     padding: 1%;
+}
+
+.basicinfo{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5%;
 }
