@@ -71,3 +71,22 @@ p{
     justify-content: center;
     padding-bottom: 5%;
 }
+
+button{
+    border: 0;
+    padding: 1%;
+}
+
+button::after{
+    border: 0;
+    padding: 1%;
+}
+
+.mainpagebutton{
+    background-color: rgb(9, 114, 150);
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
