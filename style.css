@@ -90,3 +90,11 @@ button::after{
     margin-bottom: 2%;
     border-radius: 20px;
 }
+
+.musicinfo{
+    background-color: rgb(255, 180, 180);
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    align-items: center;
+}
