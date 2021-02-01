@@ -31,7 +31,7 @@ p{
     padding: 0;
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
 }
 
 .vidtitle {
@@ -92,9 +92,43 @@ button::after{
 }
 
 .musicinfo{
-    background-color: rgb(255, 180, 180);
+    background-color: rgb(255, 175, 175);
     width: 100%;
-    height: 110vh;
     text-align: center;
     align-items: center;
+    padding-bottom: 2%;
+}
+
+.musicvidcontainer{
+    width: 100%;
+    height: 117vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.musicvid{
+    width: 45%;
+    height: 45%;
+}
+
+.animeinfo{
+    background-color: rgb(219, 163, 241);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.animevidcontainer{
+    width: 100%;
+    height: 117vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.animevid{
+    width: 45%;
+    height: 45%;
 }
