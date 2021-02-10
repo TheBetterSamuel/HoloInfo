@@ -28,3 +28,13 @@ $(document).ready(function(){
         Reine = data[10];
     })
 })
+
+document.getElementById("popbutton-robocco").addEventListener("click",
+function() {
+    document.querySelector(".bg-modal-robocco").style.display = "flex";
+});
+
+document.querySelector(".closepop").addEventListener("click",
+function(){
+    document.querySelector(".bg-modal-robocco").style.display = "none";
+})
