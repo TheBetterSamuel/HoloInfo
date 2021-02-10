@@ -94,8 +94,27 @@ $(document).ready(function(){
         $("#Robocco-bday").text(data[51].Birthday);
         $("#Robocco-height").text(data[51].Height + "cm");
         $("#Robocco-status").text(data[51].Status); 
-        Sora = data[52];
-        Miko = data[53];
+        //Tkino Sora Part
+        $("#TokinoSora-jpname").text(data[52].JapName);
+        $("#TokinoSora-age").text(data[52].Age);
+        $("#TokinoSora-gender").text(data[52].Gender);
+        $("#TokinoSora-bday").text(data[52].Birthday);
+        $("#TokinoSora-height").text(data[52].Height + "cm");
+        $("#TokinoSora-status").text(data[52].Status); 
+        //Sakura Miko Part
+        $("#SakuraMiko-jpname").text(data[53].JapName);
+        $("#SakuraMiko-age").text(data[53].Age);
+        $("#SakuraMiko-gender").text(data[53].Gender);
+        $("#SakuraMiko-bday").text(data[53].Birthday);
+        $("#SakuraMiko-height").text(data[53].Height + "cm");
+        $("#SakuraMiko-status").text(data[53].Status); 
+        //Suisei Part
+        $("#Suisei-jpname").text(data[54].JapName);
+        $("#Suisei-age").text(data[54].Age);
+        $("#Suisei-gender").text(data[54].Gender);
+        $("#Suisei-bday").text(data[54].Birthday);
+        $("#Suisei-height").text(data[54].Height + "cm");
+        $("#Suisei-status").text(data[54].Status); 
         Suisei = data[54];
         //Eleventh Section
         Fubuki1 = data[55];
@@ -116,8 +135,38 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-robocco").style.display = "flex";
     });
 
-    document.querySelector(".closepop").addEventListener("click",
+    document.getElementById("popbutton-tokinosora").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-tokinosora").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-sakuramiko").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-sakuramiko").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-suisei").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-suisei").style.display = "flex";
+    });
+
+    document.querySelector(".closepop-robocco").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-robocco").style.display = "none";
+    })
+
+    document.querySelector(".closepop-tokinosora").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-tokinosora").style.display = "none";
+    })
+
+    document.querySelector(".closepop-sakuramiko").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-sakuramiko").style.display = "none";
+    })
+
+    document.querySelector(".closepop-suisei").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-suisei").style.display = "none";
     })
 })
