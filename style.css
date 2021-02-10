@@ -195,6 +195,7 @@ button::after{
 
 .talent_pic{
     display:flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
 }
