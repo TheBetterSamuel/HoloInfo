@@ -17,6 +17,13 @@ h2{
     font-weight: 200;
 }
 
+h3{
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+}
+
 p{
     font-family: "Montserrat", Helvetica, sans-serif;
     color: white;
@@ -266,12 +273,25 @@ button::after{
     padding:20px;
     position:relative;
     border-radius: 4vh;
+    display: flex;
+    justify-content: space-between;
 }
 
-.column {
+.column-left {
     float:left;
     width:20%;
-    padding:20px;
+    height: 100%;
+    padding:2%
+}
+
+.column-right {
+    float:left;
+    width:75%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .closepop {
@@ -282,4 +302,21 @@ button::after{
     font-weight:40px;
     transform: rotate(45deg);
     cursor:pointer;
+}
+
+.inforow{
+    width: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.infotopleft{
+    height: 50%;
+    width: 40%;
+}
+
+.infotopright{
+    width: 60%;
+    height: 50%;
 }

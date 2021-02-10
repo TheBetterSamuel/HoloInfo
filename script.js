@@ -61,7 +61,7 @@ $(document).ready(function(){
         Doris = data[27];
         Rosalyn = data[28];
         //Fifth Section
-        AZKi = cata[29];
+        AZKi = data[29];
         //Sixth Section
         Aqua = data[30]
         Shion = data[31];
@@ -87,7 +87,13 @@ $(document).ready(function(){
         Polka = data[48];
         Aloe = data[49];
         //Tenth Section
-        Robocco = data[51];
+        //Robocco Part
+        $("#Robocco-jpname").text(data[51].JapName);
+        $("#Robocco-age").text(data[51].Age);
+        $("#Robocco-gender").text(data[51].Gender);
+        $("#Robocco-bday").text(data[51].Birthday);
+        $("#Robocco-height").text(data[51].Height + "cm");
+        $("#Robocco-status").text(data[51].Status); 
         Sora = data[52];
         Miko = data[53];
         Suisei = data[54];
@@ -104,14 +110,14 @@ $(document).ready(function(){
         Akaai = data[63];
         Chris = data[50];
     })
-})
 
-document.getElementById("popbutton-robocco").addEventListener("click",
-function() {
-    document.querySelector(".bg-modal-robocco").style.display = "flex";
-});
+    document.getElementById("popbutton-robocco").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-robocco").style.display = "flex";
+    });
 
-document.querySelector(".closepop").addEventListener("click",
-function(){
-    document.querySelector(".bg-modal-robocco").style.display = "none";
+    document.querySelector(".closepop").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-robocco").style.display = "none";
+    })
 })
