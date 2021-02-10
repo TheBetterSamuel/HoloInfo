@@ -227,6 +227,9 @@ button::after{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-style:dashed;
+    border-color:white;
+    width:98.95%;
 }
 
 .abouth1{
