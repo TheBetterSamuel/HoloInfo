@@ -262,10 +262,16 @@ button::after{
     height:85%;
     background-color: white;
     border-radius:4px;
-    text-align:center;
+    /*text-align:center;*/
     padding:20px;
     position:relative;
     border-radius: 4vh;
+}
+
+.column {
+    float:left;
+    width:20%;
+    padding:20px;
 }
 
 .closepop {
