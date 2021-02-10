@@ -137,6 +137,8 @@ button::after{
     text-align: center;
     align-items: center;
     padding-bottom: 2%;
+    border-style:dashed;
+    border-color:white;
 }
 
 .musicvidcontainer{
@@ -158,6 +160,8 @@ button::after{
     text-align: center;
     align-items: center;
     padding-bottom: 2%;
+    border-style:dashed;
+    border-color:white;
 }
 
 .animevidcontainer{
