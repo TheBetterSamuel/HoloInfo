@@ -78,6 +78,8 @@ p{
 .subbasicinfo{
     background-color: white;
     width: 70%;
+    border-style: solid;
+    border-color:rgb(177, 236, 255);
 }
 
 .basicinfovidcontainer{
@@ -104,11 +106,13 @@ p{
 button{
     border: 0;
     padding: 1%;
+    cursor:pointer;
 }
 
 button::after{
     border: 0;
     padding: 1%;
+    cursor:pointer;
 }
 
 .mainpagebutton{
@@ -160,4 +164,83 @@ button::after{
 .animevid{
     width: 45%;
     height: 45%;
+}
+
+#scroll_to_top{
+    display:none;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    z-index:99;
+    font-size:14px;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 191, 255);
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:4px;
+}
+
+#scroll_to_top:hover{
+    background-color:rgb(177, 236, 255);
+}
+
+.talent_pic{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 80px;
+    justify-content: space-around;
+}
+
+.talent_pic2{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.talentp{
+    display:flex;
+    flex-direction: column;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    letter-spacing:1px;
+    color:white;
+    font-size:22px;
+    justify-content:center;
+}
+
+.about{
+    padding:8px;
+    background-color:#95baff;
+}
+
+.abouth1{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:white;
+    /*font-size:37px;*/
+    font-size: 70px;
+    font-weight: 200;
+    justify-content:center;
+}
+
+.abouth2{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color:white;
+    /*font-size:37px;*/
+    font-size: 50px;
+    font-weight: 200;
+    justify-content:center;
+}
+
+.aboutp{
+    display:flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    letter-spacing:1px;
+    color:rgb(69, 69, 69);
+    font-size:22px;
+    justify-content:center;
+    padding-left: 20px;
 }
