@@ -11,7 +11,6 @@ $(document).ready(function(){
     var Pekora, Marine, Rushia, Noel, Flare;
     var Kanata, Coco, Watame, Towa, Luna;
     var Botan, Nene, Lamy, Polka, Aloe;
-    var Robocco, Sora, Miko, Suisei;
     var Fubuki1, Mio, Okayu, Korone;
     var Mel, Matsuri, Fubuki2, Aki, Akaai, Chris;
 
@@ -115,21 +114,58 @@ $(document).ready(function(){
         $("#Suisei-bday").text(data[54].Birthday);
         $("#Suisei-height").text(data[54].Height + "cm");
         $("#Suisei-status").text(data[54].Status); 
-        Suisei = data[54];
         //Eleventh Section
         Fubuki1 = data[55];
         Mio = data[56];
         Okayu = data[57];
         Korone = data[58];
         //Twelth Section
-        Mel = data[59];
-        Matsuri = data[60];
-        Fubuki2 = data[61];
-        Aki = data[62];
-        Akaai = data[63];
+        //Mel Part
+        $("#Mel-jpname").text(data[59].JapName);
+        $("#Mel-age").text(data[59].Age);
+        $("#Mel-gender").text(data[59].Gender);
+        $("#Mel-bday").text(data[59].Birthday);
+        $("#Mel-height").text(data[59].Height + "cm");
+        $("#Mel-status").text(data[59].Status);
+        //Matsuri Part
+        $("#Matsuri-jpname").text(data[60].JapName);
+        $("#Matsuri-age").text(data[60].Age);
+        $("#Matsuri-gender").text(data[60].Gender);
+        $("#Matsuri-bday").text(data[60].Birthday);
+        $("#Matsuri-height").text(data[60].Height + "cm");
+        $("#Matsuri-status").text(data[60].Status);
+        //Fubuki Part
+        $("#Fubuki-jpname").text(data[61].JapName);
+        $("#Fubuki-age").text(data[61].Age);
+        $("#Fubuki-gender").text(data[61].Gender);
+        $("#Fubuki-bday").text(data[61].Birthday);
+        $("#Fubuki-height").text(data[61].Height + "cm");
+        $("#Fubuki-status").text(data[61].Status);
+        //Aki Rosenthal Part
+        $("#Aki-jpname").text(data[62].JapName);
+        $("#Aki-age").text(data[62].Age);
+        $("#Aki-gender").text(data[62].Gender);
+        $("#Aki-bday").text(data[62].Birthday);
+        $("#Aki-height").text(data[62].Height + "cm");
+        $("#Aki-status").text(data[62].Status);
+        //Haato part
+        $("#Haato-jpname").text(data[63].JapName);
+        $("#Haato-age").text(data[63].Age);
+        $("#Haato-gender").text(data[63].Gender);
+        $("#Haato-bday").text(data[63].Birthday);
+        $("#Haato-height").text(data[63].Height + "cm");
+        $("#Haato-status").text(data[63].Status);
+        //Chris Part
+        $("#Chris-jpname").text(data[50].JapName);
+        $("#Chris-age").text(data[50].Age);
+        $("#Chris-gender").text(data[50].Gender);
+        $("#Chris-bday").text(data[50].Birthday);
+        $("#Chris-height").text(data[50].Height + "cm");
+        $("#Chris-status").text(data[50].Status);
         Chris = data[50];
     })
 
+    // Opening pop-ups
     document.getElementById("popbutton-robocco").addEventListener("click",
     function() {
         document.querySelector(".bg-modal-robocco").style.display = "flex";
@@ -150,23 +186,87 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-suisei").style.display = "flex";
     });
 
+    document.getElementById("popbutton-mel").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-mel").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-fubuki1").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-fubuki").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-matsuri").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-matsuri").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-aki").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-aki").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-haato").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-haato").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-chris").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-chris").style.display = "flex";
+    });
+
+
+
+
+    //Closing pop-ups
     document.querySelector(".closepop-robocco").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-robocco").style.display = "none";
-    })
+    });
 
     document.querySelector(".closepop-tokinosora").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-tokinosora").style.display = "none";
-    })
+    });
 
     document.querySelector(".closepop-sakuramiko").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-sakuramiko").style.display = "none";
-    })
+    });
 
     document.querySelector(".closepop-suisei").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-suisei").style.display = "none";
-    })
+    });
+
+    document.querySelector(".closepop-mel").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-mel").style.display = "none";
+    });
+
+    document.querySelector(".closepop-fubuki").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-fubuki").style.display = "none";
+    });
+
+    document.querySelector(".closepop-matsuri").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-matsuri").style.display = "none";
+    });
+
+    document.querySelector(".closepop-aki").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-aki").style.display = "none";
+    });
+
+    document.querySelector(".closepop-haato").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-haato").style.display = "none";
+    });
+
+    document.querySelector(".closepop-chris").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-chris").style.display = "none";
+    });
 })

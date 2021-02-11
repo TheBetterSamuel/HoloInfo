@@ -307,6 +307,78 @@ button::after{
     display:none;
 }
 
+.bg-modal-mel {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-fubuki {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-matsuri {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-aki {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-haato {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-chris {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
 .modal-content {
     width:80%;
     height:85%;
@@ -377,8 +449,68 @@ button::after{
     cursor:pointer;
 }
 
+.closepop-mel {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-fubuki {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-matsuri {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-aki {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-haato {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-chris {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
 .inforow{
-    width: 40vh;
+    width: 90%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -390,13 +522,13 @@ button::after{
 }
 
 .infotopright{
-    width: 60%;
+    width: 56.5%;
     height: 50%;
 }
 
 .socialbar{
     position: fixed;
-    top:70%;
+    top:80%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
