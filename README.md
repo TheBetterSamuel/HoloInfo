@@ -1,5 +1,23 @@
 # HoloInfo
+## Coding Languages and Mock-up Languages Used
+* CSS
+* HTML
+* JavaScript
+## Devices used for testing
+* iPad
+* Laptop
+* Desktop
+## Programs used
+### For Coding
+* Visual Studio Code
+* Notepad++
+### For website testing
+* Microsoft Edge
+* Google Chrome
+* Mozilla Firefox
 ## External links
+### Source of info
+Hololive Fan Wiki: https://hololive.wiki/wiki/Main_Page
 ### Videos
 #### Info About Hololive From CEO
 * https://www.youtube.com/watch?v=4JACxzBnk0Y&t=5s
