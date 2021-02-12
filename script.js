@@ -114,12 +114,12 @@ $(document).ready(function(){
         $("#SakuraMiko-height").text(data[53].Height + "cm");
         $("#SakuraMiko-status").text(data[53].Status); 
         //Suisei Part
-        $("#Suisei-jpname").text(data[54].JapName);
-        $("#Suisei-age").text(data[54].Age);
-        $("#Suisei-gender").text(data[54].Gender);
-        $("#Suisei-bday").text(data[54].Birthday);
-        $("#Suisei-height").text(data[54].Height + "cm");
-        $("#Suisei-status").text(data[54].Status); 
+        $("#Suisei-jpname").text(data[62].JapName);
+        $("#Suisei-age").text(data[62].Age);
+        $("#Suisei-gender").text(data[62].Gender);
+        $("#Suisei-bday").text(data[62].Birthday);
+        $("#Suisei-height").text(data[62].Height + "cm");
+        $("#Suisei-status").text(data[62].Status); 
         //Eleventh Section
         Fubuki1 = data[55];
         Mio = data[56];
@@ -127,40 +127,40 @@ $(document).ready(function(){
         Korone = data[58];
         //Twelth Section
         //Mel Part
-        $("#Mel-jpname").text(data[59].JapName);
-        $("#Mel-age").text(data[59].Age);
-        $("#Mel-gender").text(data[59].Gender);
-        $("#Mel-bday").text(data[59].Birthday);
-        $("#Mel-height").text(data[59].Height + "cm");
-        $("#Mel-status").text(data[59].Status);
+        $("#Mel-jpname").text(data[57].JapName);
+        $("#Mel-age").text(data[57].Age);
+        $("#Mel-gender").text(data[57].Gender);
+        $("#Mel-bday").text(data[57].Birthday);
+        $("#Mel-height").text(data[57].Height + "cm");
+        $("#Mel-status").text(data[57].Status);
         //Matsuri Part
-        $("#Matsuri-jpname").text(data[60].JapName);
-        $("#Matsuri-age").text(data[60].Age);
-        $("#Matsuri-gender").text(data[60].Gender);
-        $("#Matsuri-bday").text(data[60].Birthday);
-        $("#Matsuri-height").text(data[60].Height + "cm");
-        $("#Matsuri-status").text(data[60].Status);
+        $("#Matsuri-jpname").text(data[58].JapName);
+        $("#Matsuri-age").text(data[58].Age);
+        $("#Matsuri-gender").text(data[58].Gender);
+        $("#Matsuri-bday").text(data[58].Birthday);
+        $("#Matsuri-height").text(data[58].Height + "cm");
+        $("#Matsuri-status").text(data[58].Status);
         //Fubuki Part
-        $("#Fubuki-jpname").text(data[61].JapName);
-        $("#Fubuki-age").text(data[61].Age);
-        $("#Fubuki-gender").text(data[61].Gender);
-        $("#Fubuki-bday").text(data[61].Birthday);
-        $("#Fubuki-height").text(data[61].Height + "cm");
-        $("#Fubuki-status").text(data[61].Status);
+        $("#Fubuki-jpname").text(data[59].JapName);
+        $("#Fubuki-age").text(data[59].Age);
+        $("#Fubuki-gender").text(data[59].Gender);
+        $("#Fubuki-bday").text(data[59].Birthday);
+        $("#Fubuki-height").text(data[59].Height + "cm");
+        $("#Fubuki-status").text(data[59].Status);
         //Aki Rosenthal Part
-        $("#Aki-jpname").text(data[62].JapName);
-        $("#Aki-age").text(data[62].Age);
-        $("#Aki-gender").text(data[62].Gender);
-        $("#Aki-bday").text(data[62].Birthday);
-        $("#Aki-height").text(data[62].Height + "cm");
-        $("#Aki-status").text(data[62].Status);
+        $("#Aki-jpname").text(data[60].JapName);
+        $("#Aki-age").text(data[60].Age);
+        $("#Aki-gender").text(data[60].Gender);
+        $("#Aki-bday").text(data[60].Birthday);
+        $("#Aki-height").text(data[60].Height + "cm");
+        $("#Aki-status").text(data[60].Status);
         //Haato part
-        $("#Haato-jpname").text(data[63].JapName);
-        $("#Haato-age").text(data[63].Age);
-        $("#Haato-gender").text(data[63].Gender);
-        $("#Haato-bday").text(data[63].Birthday);
-        $("#Haato-height").text(data[63].Height + "cm");
-        $("#Haato-status").text(data[63].Status);
+        $("#Haato-jpname").text(data[61].JapName);
+        $("#Haato-age").text(data[61].Age);
+        $("#Haato-gender").text(data[61].Gender);
+        $("#Haato-bday").text(data[61].Birthday);
+        $("#Haato-height").text(data[61].Height + "cm");
+        $("#Haato-status").text(data[61].Status);
         //Chris Part
         $("#Chris-jpname").text(data[50].JapName);
         $("#Chris-age").text(data[50].Age);
