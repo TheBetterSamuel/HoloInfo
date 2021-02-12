@@ -201,6 +201,11 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-fubuki").style.display = "flex";
     });
 
+    document.getElementById("popbutton-fubuki2").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-fubuki").style.display = "flex";
+    });
+
     document.getElementById("popbutton-matsuri").addEventListener("click",
     function() {
         document.querySelector(".bg-modal-matsuri").style.display = "flex";
