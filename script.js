@@ -60,7 +60,13 @@ $(document).ready(function(){
         Doris = data[27];
         Rosalyn = data[28];
         //Fifth Section
-        AZKi = data[29];
+        //AZKi Part
+        $("#AZKi-jpname").text(data[29].JapName);
+        $("#AZKi-age").text(data[29].Age);
+        $("#AZKi-gender").text(data[29].Gender);
+        $("#AZKi-bday").text(data[29].Birthday);
+        $("#AZKi-height").text(data[29].Height + "cm");
+        $("#AZKi-status").text(data[29].Status); 
         //Sixth Section
         Aqua = data[30]
         Shion = data[31];
@@ -162,7 +168,6 @@ $(document).ready(function(){
         $("#Chris-bday").text(data[50].Birthday);
         $("#Chris-height").text(data[50].Height + "cm");
         $("#Chris-status").text(data[50].Status);
-        Chris = data[50];
     })
 
     // Opening pop-ups
@@ -214,6 +219,11 @@ $(document).ready(function(){
     document.getElementById("popbutton-chris").addEventListener("click",
     function() {
         document.querySelector(".bg-modal-chris").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-azki").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-azki").style.display = "flex";
     });
 
 
@@ -268,5 +278,10 @@ $(document).ready(function(){
     document.querySelector(".closepop-chris").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-chris").style.display = "none";
+    });
+
+    document.querySelector(".closepop-azki").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-azki").style.display = "none";
     });
 })
