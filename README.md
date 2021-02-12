@@ -2,6 +2,15 @@
 Done by:
 * Samuel Kwan
 * Daryl Cheong
+## About Holoinfo
+### Overview
+Holoinfo is a website that shows information on what Hololive is and information about the idols employed in this company.
+### Design Rational
+The website is made with simplicity and bright theme as it fits the theme that Hololive uses. It is meant to be bright and simple to look apealing to users, and also being easy to use with a san-serif font. Pop-ups are used to display the information of the idols to make it more interactive for the users.
+### Target Audienve
+The website is targeted as fans of Hololive who wish to know more about their favourite idols. It is also meant for people new to Hololive, to allow them to better understand Hololive and what it is about.
+### Significance o this website
+Online entertainment is a huge business, especially in this time of the coronavirus. This means Hololive, as a part of this industry, has many fans and people who are interested in watching these talents. However, with the number of idols, and much information being hard to obtain from watching a few videos, this website helps bridge the gap between the new and old fans. This website would allow the newcomers and some older fans to keep up with the latest information about Hololive and its idols.
 ## Coding Languages and Mock-up Languages Used
 * CSS
 * HTML
@@ -11,6 +20,10 @@ Done by:
 * Laptop
 * Desktop
 ## Programs used
+### For Photo Editing(Aspect Ratio)
+* Windows Photo Editor
+### For Wireframes
+* Adobe XD
 ### For Coding
 * Visual Studio Code
 * Notepad++
@@ -18,10 +31,15 @@ Done by:
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
+* Postman
 ## External links
+### API Creation 
+RestDB: https://restdb.io/
 ### Source of info
-Hololive Fan Wiki: https://hololive.wiki/wiki/Main_Page
+* Hololive Fan Wiki: https://hololive.wiki/wiki/Main_Page
+* Hololive Website: https://en.hololive.tv/
 ### Videos
+Video used for background: https://www.youtube.com/watch?v=9kQ2GtvDV3s&t=21s
 #### Info About Hololive From CEO
 * https://www.youtube.com/watch?v=4JACxzBnk0Y&t=5s
 * https://www.youtube.com/watch?v=BKf89qar7cI&t=3s  
@@ -31,7 +49,12 @@ Hololive Fan Wiki: https://hololive.wiki/wiki/Main_Page
 * https://www.youtube.com/watch?v=vQHVGXdcqEQ
 * https://www.youtube.com/watch?v=68KV7JnrvDo
 * https://www.youtube.com/watch?v=mZ0sJQC8qkE
-### Pictures of idols
+### Anime Video
+* https://youtu.be/NU4RAfwXL8Q
+* https://youtu.be/_B-Q10J9KSg
+* https://youtu.be/vVDcEsz5k_Q
+* https://youtu.be/IB-41BrvMfI
+### Pictures of idols(Google Search links are used for links that are too long)
 * https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsafebooru.org%2Fimages%2F3078%2Fe5215cd28a489dbedc1ff49b0104048a6bc1bb83.jpg%3F3204732&f=1&nofb=1
 * https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAzureLane%2Fcomments%2Fe2ydbq%2Fdid_you_know_that_shirakami_fubuki_can_perform%2F&psig=AOvVaw2KSuB5EPJVEa18giynLdDO&ust=1613112681444000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjmlpef4e4CFQAAAAAdAAAAABAZ
 * https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fwww.zerochan.net%2F2704328&psig=AOvVaw2_uxzsXcQgolvykbnl6CXB&ust=1613112577490000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjXuc-f4e4CFQAAAAAdAAAAABAD
