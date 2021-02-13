@@ -394,6 +394,66 @@ button::after{
     display:none;
 }
 
+.bg-modal-Maqua {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Mshion {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Nayame {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Ychoco {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Osubaru {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
 .modal-content {
     width:80%;
     height:85%;
@@ -422,6 +482,46 @@ button::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.closepop-Osubaru {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Ychoco {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Nayame {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Mshion {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
 }
 
 .closepop-robocco {
@@ -525,6 +625,16 @@ button::after{
 }
 
 .closepop-azki {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Maqua {
     position:absolute;
     top: 0;
     right:14px;

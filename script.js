@@ -168,6 +168,41 @@ $(document).ready(function(){
         $("#Chris-bday").text(data[50].Birthday);
         $("#Chris-height").text(data[50].Height + "cm");
         $("#Chris-status").text(data[50].Status);
+        //Aqua Part
+        $("#Maqua-jpname").text(data[30].JapName);
+        $("#Maqua-age").text(data[30].Age);
+        $("#Maqua-gender").text(data[30].Gender);
+        $("#Maqua-bday").text(data[30].Birthday);
+        $("#Maqua-height").text(data[30].Height + "cm");
+        $("#Maqua-status").text(data[30].Status);
+        //Shion Part
+        $("#Mshion-jpname").text(data[31].JapName);
+        $("#Mshion-age").text(data[31].Age);
+        $("#Mshion-gender").text(data[31].Gender);
+        $("#Mshion-bday").text(data[31].Birthday);
+        $("#Mshion-height").text(data[31].Height + "cm");
+        $("#Mshion-status").text(data[31].Status);
+        //Ayame Part
+        $("#Nayame-jpname").text(data[32].JapName);
+        $("#Nayame-age").text(data[32].Age);
+        $("#Nayame-gender").text(data[32].Gender);
+        $("#Nayame-bday").text(data[32].Birthday);
+        $("#Nayame-height").text(data[32].Height + "cm");
+        $("#Nayame-status").text(data[32].Status);
+        //Choco sensei Part
+        $("#Ychoco-jpname").text(data[33].JapName);
+        $("#Ychoco-age").text(data[33].Age);
+        $("#Ychoco-gender").text(data[33].Gender);
+        $("#Ychoco-bday").text(data[33].Birthday);
+        $("#Ychoco-height").text(data[33].Height + "cm");
+        $("#Ychoco-status").text(data[33].Status);
+        //Oozora Subaru Part
+        $("#Osubaru-jpname").text(data[34].JapName);
+        $("#Osubaru-age").text(data[34].Age);
+        $("#Osubaru-gender").text(data[34].Gender);
+        $("#Osubaru-bday").text(data[34].Birthday);
+        $("#Osubaru-height").text(data[34].Height + "cm");
+        $("#Osubaru-status").text(data[34].Status);
     })
 
     // Opening pop-ups
@@ -231,10 +266,48 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-azki").style.display = "flex";
     });
 
+    document.getElementById("popbutton-aqua").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Maqua").style.display = "flex";
+    });
 
+    document.getElementById("popbutton-shion").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Mshion").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-ayame").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Nayame").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-choco").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Ychoco").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-subaru").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Osubaru").style.display = "flex";
+    });
 
 
     //Closing pop-ups
+    document.querySelector(".closepop-Osubaru").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Osubaru").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Ychoco").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Ychoco").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Nayame").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Nayame").style.display = "none";
+    });
+
     document.querySelector(".closepop-robocco").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-robocco").style.display = "none";
@@ -288,5 +361,15 @@ $(document).ready(function(){
     document.querySelector(".closepop-azki").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-azki").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Maqua").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Maqua").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Mshion").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Mshion").style.display = "none";
     });
 })

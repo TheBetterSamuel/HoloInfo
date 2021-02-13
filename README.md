@@ -111,3 +111,8 @@ Video used for background: https://www.youtube.com/watch?v=9kQ2GtvDV3s&t=21s
 * https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fsatchely%2Fart%2FGawr-Gura-855075231&psig=AOvVaw0a464LY3koN9DyZ4gF-zNo&ust=1613234406661000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiPzc_k5O4CFQAAAAAdAAAAABAD
 * https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fmoricalliope%2Fstatus%2F1324883982043865088&psig=AOvVaw210KVvsaWiBekUk3L0gqCT&ust=1613234424563000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj_l9jk5O4CFQAAAAAdAAAAABAD
 * https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fwww.zerochan.net%2F3073384&psig=AOvVaw0Xcjavb3flLsrmtwRGxNiz&ust=1613234443764000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiaveHk5O4CFQAAAAAdAAAAABAD
+* Shirakami Fubuki - https://twitter.com/msk064/status/1358379886411350016/photo/1
+* Natsuiro Matsuri - https://safebooru.org/index.php?page=post&s=view&id=3019663#
+* Oozora Subaru - https://twitter.com/nokachoco114/status/1349386815153664000/photo/1
+* Nakiri Ayame - https://twitter.com/nana_kaguraaa/status/1338127418486222850
+* Yuzuki Choco - https://twitter.com/t_bth/status/1351705124809318409
