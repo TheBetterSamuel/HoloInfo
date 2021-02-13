@@ -203,6 +203,48 @@ $(document).ready(function(){
         $("#Osubaru-bday").text(data[34].Birthday);
         $("#Osubaru-height").text(data[34].Height + "cm");
         $("#Osubaru-status").text(data[34].Status);
+        //Pekora Part
+        $("#Upekora-jpname").text(data[35].JapName);
+        $("#Upekora-age").text(data[35].Age);
+        $("#Upekora-gender").text(data[35].Gender);
+        $("#Upekora-bday").text(data[35].Birthday);
+        $("#Upekora-height").text(data[35].Height + "cm");
+        $("#Upekora-status").text(data[35].Status);
+        //Rushia Part
+        $("#Urushia-jpname").text(data[37].JapName);
+        $("#Urushia-age").text(data[37].Age);
+        $("#Urushia-gender").text(data[37].Gender);
+        $("#Urushia-bday").text(data[37].Birthday);
+        $("#Urushia-height").text(data[37].Height + "cm");
+        $("#Urushia-status").text(data[37].Status);
+        //Houshou Marine Part
+        $("#Hmarine-jpname").text(data[36].JapName);
+        $("#Hmarine-age").text(data[36].Age);
+        $("#Hmarine-gender").text(data[36].Gender);
+        $("#Hmarine-bday").text(data[36].Birthday);
+        $("#Hmarine-height").text(data[36].Height + "cm");
+        $("#Hmarine-status").text(data[36].Status);
+        //Houshou Marine Part
+        $("#Hmarine-jpname").text(data[36].JapName);
+        $("#Hmarine-age").text(data[36].Age);
+        $("#Hmarine-gender").text(data[36].Gender);
+        $("#Hmarine-bday").text(data[36].Birthday);
+        $("#Hmarine-height").text(data[36].Height + "cm");
+        $("#Hmarine-status").text(data[36].Status);
+        //Flare Part
+        $("#Sflare-jpname").text(data[39].JapName);
+        $("#Sflare-age").text(data[39].Age);
+        $("#Sflare-gender").text(data[39].Gender);
+        $("#Sflare-bday").text(data[39].Birthday);
+        $("#Sflare-height").text(data[39].Height + "cm");
+        $("#Sflare-status").text(data[39].Status);
+        //Noel Part
+        $("#Snoel-jpname").text(data[38].JapName);
+        $("#Snoel-age").text(data[38].Age);
+        $("#Snoel-gender").text(data[38].Gender);
+        $("#Snoel-bday").text(data[38].Birthday);
+        $("#Snoel-height").text(data[38].Height + "cm");
+        $("#Snoel-status").text(data[38].Status);
     })
 
     // Opening pop-ups
@@ -291,8 +333,58 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Osubaru").style.display = "flex";
     });
 
+    document.getElementById("popbutton-pekora").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Upekora").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-rushia").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Urushia").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-marine").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Hmarine").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-flare").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Sflare").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-noel").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Snoel").style.display = "flex";
+    });
+
 
     //Closing pop-ups
+    document.querySelector(".closepop-Snoel").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Snoel").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Sflare").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Sflare").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Hmarine").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Hmarine").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Urushia").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Urushia").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Upekora").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Upekora").style.display = "none";
+    });
+
     document.querySelector(".closepop-Osubaru").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Osubaru").style.display = "none";

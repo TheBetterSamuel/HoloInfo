@@ -116,3 +116,6 @@ Video used for background: https://www.youtube.com/watch?v=9kQ2GtvDV3s&t=21s
 * Oozora Subaru - https://twitter.com/nokachoco114/status/1349386815153664000/photo/1
 * Nakiri Ayame - https://twitter.com/nana_kaguraaa/status/1338127418486222850
 * Yuzuki Choco - https://twitter.com/t_bth/status/1351705124809318409
+* Usada Pekora - https://twitter.com/niniko2ko/status/1334826002581602306/photo/1
+* Shirogane Noel - https://i.imgur.com/EFFgCu4.jpg
+* Uruha Rushia - https://twitter.com/Guchico77/status/1278272954074161153

@@ -454,6 +454,66 @@ button::after{
     display:none;
 }
 
+.bg-modal-Upekora {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Urushia {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Hmarine {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Sflare {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Snoel {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
 .modal-content {
     width:80%;
     height:85%;
@@ -482,6 +542,56 @@ button::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.closepop-Snoel {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Sflare {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Hmarine {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Urushia {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Upekora {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
 }
 
 .closepop-Osubaru {
