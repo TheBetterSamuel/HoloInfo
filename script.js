@@ -298,6 +298,27 @@ $(document).ready(function(){
         $("#Maloe-bday").text(data[49].Birthday);
         $("#Maloe-height").text(data[49].Height + "cm");
         $("#Maloe-status").text(data[49].Status);
+        //Mio Part
+        $("#Omio-jpname").text(data[54].JapName);
+        $("#Omio-age").text(data[54].Age);
+        $("#Omio-gender").text(data[54].Gender);
+        $("#Omio-bday").text(data[54].Birthday);
+        $("#Omio-height").text(data[54].Height + "cm");
+        $("#Omio-status").text(data[54].Status);
+        //Okayu Part
+        $("#Nokayu-jpname").text(data[55].JapName);
+        $("#Nokayu-age").text(data[55].Age);
+        $("#Nokayu-gender").text(data[55].Gender);
+        $("#Nokayu-bday").text(data[55].Birthday);
+        $("#Nokayu-height").text(data[55].Height + "cm");
+        $("#Nokayu-status").text(data[55].Status);
+        //Miyabi Part
+        $("#Hmiyabi-jpname").text(data[12].JapName);
+        $("#Hmiyabi-age").text(data[12].Age);
+        $("#Hmiyabi-gender").text(data[12].Gender);
+        $("#Hmiyabi-bday").text(data[12].Birthday);
+        $("#Hmiyabi-height").text(data[12].Height + "cm");
+        $("#Hmiyabi-status").text(data[12].Status);
     })
 
     // Opening pop-ups
@@ -461,8 +482,38 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Maloe").style.display = "flex";
     });
 
+    document.getElementById("popbutton-mio").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Omio").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-okayu").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Nokayu").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-korone").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Ikorone").style.display = "flex";
+    });
+
 
     //Closing pop-ups
+    document.querySelector(".closepop-Ikorone").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Ikorone").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Nokayu").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Nokayu").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Omio").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Omio").style.display = "none";
+    });
+
     document.querySelector(".closepop-Maloe").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Maloe").style.display = "none";
