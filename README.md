@@ -112,3 +112,11 @@ Video used for background: https://www.youtube.com/watch?v=9kQ2GtvDV3s&t=21s
 * Usada Pekora - https://twitter.com/niniko2ko/status/1334826002581602306/photo/1
 * Shirogane Noel - https://i.imgur.com/EFFgCu4.jpg
 * Uruha Rushia - https://twitter.com/Guchico77/status/1278272954074161153
+* Kiryu Coco - https://twitter.com/Guchico77/status/1346825477839749121
+* Amane Kanata - https://twitter.com/konbusennin2/status/1358383512600997889/photo/1
+* Tsunomaki Watame - https://twitter.com/fuumiisc/status/1344893564329684992/photo/1
+* Himemori Luna - https://twitter.com/ironekorika/status/1353222890347368448
+* Tokoyami Towa - https://twitter.com/rurudo_/status/1292657611054014469/photo/1
+* Shishiro Botan - https://twitter.com/Guchico77/status/1325008883371241472/photo/2
+* Yukihana Lamy - https://twitter.com/bouzumi_/status/1351022337651576842
+* Omaru Polka - https://twitter.com/i/web/status/1309268349877022720

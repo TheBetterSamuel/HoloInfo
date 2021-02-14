@@ -263,6 +263,41 @@ $(document).ready(function(){
         $("#Snoel-bday").text(data[38].Birthday);
         $("#Snoel-height").text(data[38].Height + "cm");
         $("#Snoel-status").text(data[38].Status);
+        //Lamy Part
+        $("#Ylamy-jpname").text(data[47].JapName);
+        $("#Ylamy-age").text(data[47].Age);
+        $("#Ylamy-gender").text(data[47].Gender);
+        $("#Ylamy-bday").text(data[47].Birthday);
+        $("#Ylamy-height").text(data[47].Height + "cm");
+        $("#Ylamy-status").text(data[47].Status);
+        //Nene Part
+        $("#Mnene-jpname").text(data[46].JapName);
+        $("#Mnene-age").text(data[46].Age);
+        $("#Mnene-gender").text(data[46].Gender);
+        $("#Mnene-bday").text(data[46].Birthday);
+        $("#Mnene-height").text(data[46].Height + "cm");
+        $("#Mnene-status").text(data[46].Status);
+        //Nene Part
+        $("#Sbotan-jpname").text(data[45].JapName);
+        $("#Sbotan-age").text(data[45].Age);
+        $("#Sbotan-gender").text(data[45].Gender);
+        $("#Sbotan-bday").text(data[45].Birthday);
+        $("#Sbotan-height").text(data[45].Height + "cm");
+        $("#Sbotan-status").text(data[45].Status);
+        //Polka Part
+        $("#Opolka-jpname").text(data[48].JapName);
+        $("#Opolka-age").text(data[48].Age);
+        $("#Opolka-gender").text(data[48].Gender);
+        $("#Opolka-bday").text(data[48].Birthday);
+        $("#Opolka-height").text(data[48].Height + "cm");
+        $("#Opolka-status").text(data[48].Status);
+        //Aloe Part
+        $("#Maloe-jpname").text(data[49].JapName);
+        $("#Maloe-age").text(data[49].Age);
+        $("#Maloe-gender").text(data[49].Gender);
+        $("#Maloe-bday").text(data[49].Birthday);
+        $("#Maloe-height").text(data[49].Height + "cm");
+        $("#Maloe-status").text(data[49].Status);
     })
 
     // Opening pop-ups
@@ -401,8 +436,58 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-luna").style.display = "flex";
     });
 
+    document.getElementById("popbutton-lamy").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Ylamy").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-nene").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Mnene").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-botan").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Sbotan").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-polka").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Opolka").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-aloe").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Maloe").style.display = "flex";
+    });
+
 
     //Closing pop-ups
+    document.querySelector(".closepop-Maloe").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Maloe").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Opolka").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Opolka").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Sbotan").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Sbotan").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Mnene").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Mnene").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Ylamy").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Ylamy").style.display = "none";
+    });
+
     document.querySelector(".closepop-Snoel").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Snoel").style.display = "none";
