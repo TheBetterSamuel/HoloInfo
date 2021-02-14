@@ -368,6 +368,20 @@ $(document).ready(function(){
         $("#astel-bday").text(data[17].Birthday);
         $("#astel-height").text(data[17].Height + "cm");
         $("#astel-status").text(data[17].Status);
+        //Tenma Part
+        $("#Ktenma-jpname").text(data[18].JapName);
+        $("#Ktenma-age").text(data[18].Age);
+        $("#Ktenma-gender").text(data[18].Gender);
+        $("#Ktenma-bday").text(data[18].Birthday);
+        $("#Ktenma-height").text(data[18].Height + "cm");
+        $("#Ktenma-status").text(data[18].Status);
+        //Roberu Part
+        $("#Yroberu-jpname").text(data[19].JapName);
+        $("#Yroberu-age").text(data[19].Age);
+        $("#Yroberu-gender").text(data[19].Gender);
+        $("#Yroberu-bday").text(data[19].Birthday);
+        $("#Yroberu-height").text(data[19].Height + "cm");
+        $("#Yroberu-status").text(data[19].Status);
     })
 
     // Opening pop-ups
@@ -581,9 +595,29 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-astel").style.display = "flex";
     });
 
+    document.getElementById("popbutton-tenma").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Ktenma").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-roberu").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Yroberu").style.display = "flex";
+    });
+
 
 
     //Closing pop-ups
+    document.querySelector(".closepop-Yroberu").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Yroberu").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Ktenma").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Ktenma").style.display = "none";
+    });
+
     document.querySelector(".closepop-astel").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-astel").style.display = "none";
