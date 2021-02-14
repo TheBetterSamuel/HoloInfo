@@ -670,6 +670,90 @@ button::after{
     display:none;
 }
 
+.bg-modal-Hmiyabi {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Kizuru {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-aruran {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-rikka {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Ysuzaku {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-Kkira {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-astel {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
 .modal-content {
     width:80%;
     height:85%;
@@ -702,6 +786,76 @@ button::after{
 
 
 /*Cross to close popip*/
+.closepop-astel {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Kkira {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Ysuzaku {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-rikka {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-aruran {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Kizuru {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-Hmiyabi {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
 .closepop-Ikorone {
     position:absolute;
     top: 0;

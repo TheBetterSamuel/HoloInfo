@@ -312,13 +312,62 @@ $(document).ready(function(){
         $("#Nokayu-bday").text(data[55].Birthday);
         $("#Nokayu-height").text(data[55].Height + "cm");
         $("#Nokayu-status").text(data[55].Status);
+        //Korone Part
+        $("#Ikorone-jpname").text(data[56].JapName);
+        $("#Ikorone-age").text(data[56].Age);
+        $("#Ikorone-gender").text(data[56].Gender);
+        $("#Ikorone-bday").text(data[56].Birthday);
+        $("#Ikorone-height").text(data[56].Height + "cm");
+        $("#Ikorone-status").text(data[56].Status);
         //Miyabi Part
-        $("#Hmiyabi-jpname").text(data[12].JapName);
-        $("#Hmiyabi-age").text(data[12].Age);
-        $("#Hmiyabi-gender").text(data[12].Gender);
-        $("#Hmiyabi-bday").text(data[12].Birthday);
-        $("#Hmiyabi-height").text(data[12].Height + "cm");
-        $("#Hmiyabi-status").text(data[12].Status);
+        $("#Hmiyabi-jpname").text(data[11].JapName);
+        $("#Hmiyabi-age").text(data[11].Age);
+        $("#Hmiyabi-gender").text(data[11].Gender);
+        $("#Hmiyabi-bday").text(data[11].Birthday);
+        $("#Hmiyabi-height").text(data[11].Height + "cm");
+        $("#Hmiyabi-status").text(data[11].Status);
+        //Izuru Part
+        $("#Kizuru-jpname").text(data[12].JapName);
+        $("#Kizuru-age").text(data[12].Age);
+        $("#Kizuru-gender").text(data[12].Gender);
+        $("#Kizuru-bday").text(data[12].Birthday);
+        $("#Kizuru-height").text(data[12].Height + "cm");
+        $("#Kizuru-status").text(data[12].Status);
+        //aruran Part
+        $("#aruran-jpname").text(data[13].JapName);
+        $("#aruran-age").text(data[13].Age);
+        $("#aruran-gender").text(data[13].Gender);
+        $("#aruran-bday").text(data[13].Birthday);
+        $("#aruran-height").text(data[13].Height + "cm");
+        $("#aruran-status").text(data[13].Status);
+        //Rikka Part
+        $("#rikka-jpname").text(data[14].JapName);
+        $("#rikka-age").text(data[14].Age);
+        $("#rikka-gender").text(data[14].Gender);
+        $("#rikka-bday").text(data[14].Birthday);
+        $("#rikka-height").text(data[14].Height + "cm");
+        $("#rikka-status").text(data[14].Status);
+        //Suzaku Part
+        $("#Ysuzaku-jpname").text(data[16].JapName);
+        $("#Ysuzaku-age").text(data[16].Age);
+        $("#Ysuzaku-gender").text(data[16].Gender);
+        $("#Ysuzaku-bday").text(data[16].Birthday);
+        $("#Ysuzaku-height").text(data[16].Height + "cm");
+        $("#Ysuzaku-status").text(data[16].Status);
+        //Kira Part
+        $("#Kkira-jpname").text(data[15].JapName);
+        $("#Kkira-age").text(data[15].Age);
+        $("#Kkira-gender").text(data[15].Gender);
+        $("#Kkira-bday").text(data[15].Birthday);
+        $("#Kkira-height").text(data[15].Height + "cm");
+        $("#Kkira-status").text(data[15].Status);
+        //Astel Part
+        $("#astel-jpname").text(data[17].JapName);
+        $("#astel-age").text(data[17].Age);
+        $("#astel-gender").text(data[17].Gender);
+        $("#astel-bday").text(data[17].Birthday);
+        $("#astel-height").text(data[17].Height + "cm");
+        $("#astel-status").text(data[17].Status);
     })
 
     // Opening pop-ups
@@ -497,8 +546,79 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Ikorone").style.display = "flex";
     });
 
+    document.getElementById("popbutton-miyabi").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Hmiyabi").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-izuru").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Kizuru").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-aruran").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-aruran").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-rikka").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-rikka").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-suzaku").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Ysuzaku").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-kira").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Kkira").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-astel").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-astel").style.display = "flex";
+    });
+
+
 
     //Closing pop-ups
+    document.querySelector(".closepop-astel").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-astel").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Kkira").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Kkira").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Ysuzaku").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Ysuzaku").style.display = "none";
+    });
+
+    document.querySelector(".closepop-rikka").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-rikka").style.display = "none";
+    });
+
+    document.querySelector(".closepop-aruran").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-aruran").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Kizuru").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Kizuru").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Hmiyabi").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Hmiyabi").style.display = "none";
+    });
+
     document.querySelector(".closepop-Ikorone").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Ikorone").style.display = "none";
