@@ -1,7 +1,7 @@
 # HoloInfo
 Done by:
 * Samuel Kwan
-* Daryl Cheong
+* Daryl Chong
 ## About Holoinfo
 ### Overview
 Holoinfo is a website that shows information on what Hololive is and information about the idols employed in this company.
