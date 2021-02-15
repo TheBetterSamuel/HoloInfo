@@ -403,6 +403,34 @@ $(document).ready(function(){
         $("#Tkaoru-bday").text(data[22].Birthday);
         $("#Tkaoru-height").text(data[22].Height + "cm");
         $("#Tkaoru-status").text(data[22].Status);
+        //Risu Part
+        $("#Arisu-jpname").text(data[5].JapName);
+        $("#Arisu-age").text(data[5].Age);
+        $("#Arisu-gender").text(data[5].Gender);
+        $("#Arisu-bday").text(data[5].Birthday);
+        $("#Arisu-height").text(data[5].Height + "cm");
+        $("#Arisu-status").text(data[5].Status);
+        //Moona Part
+        $("#Hmoona-jpname").text(data[6].JapName);
+        $("#Hmoona-age").text(data[6].Age);
+        $("#Hmoona-gender").text(data[6].Gender);
+        $("#Hmoona-bday").text(data[6].Birthday);
+        $("#Hmoona-height").text(data[6].Height + "cm");
+        $("#Hmoona-status").text(data[6].Status);
+        //Iofi Part
+        $("#Aiofi-jpname").text(data[7].JapName);
+        $("#Aiofi-age").text(data[7].Age);
+        $("#Aiofi-gender").text(data[7].Gender);
+        $("#Aiofi-bday").text(data[7].Birthday);
+        $("#Aiofi-height").text(data[7].Height + "cm");
+        $("#Aiofi-status").text(data[7].Status);
+        //Ollie Part
+        $("#Kollie-jpname").text(data[8].JapName);
+        $("#Kollie-age").text(data[7].Age);
+        $("#Aiofi-gender").text(data[7].Gender);
+        $("#Aiofi-bday").text(data[7].Birthday);
+        $("#Aiofi-height").text(data[7].Height + "cm");
+        $("#Aiofi-status").text(data[7].Status);
     })
 
     // Opening pop-ups
@@ -641,9 +669,38 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Tkaoru").style.display = "flex";
     });
 
+    document.getElementById("popbutton-risu").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Arisu").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-moona").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Hmoona").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-iofi").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Aiofi").style.display = "flex";
+    });
 
 
     //Closing pop-ups
+    document.querySelector(".closepop-Aiofi").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Aiofi").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Hmoona").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Hmoona").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Arisu").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Arisu").style.display = "none";
+    });
+
     document.querySelector(".closepop-Tkaoru").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Tkaoru").style.display = "none";
