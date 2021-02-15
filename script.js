@@ -426,11 +426,25 @@ $(document).ready(function(){
         $("#Aiofi-status").text(data[7].Status);
         //Ollie Part
         $("#Kollie-jpname").text(data[8].JapName);
-        $("#Kollie-age").text(data[7].Age);
-        $("#Aiofi-gender").text(data[7].Gender);
-        $("#Aiofi-bday").text(data[7].Birthday);
-        $("#Aiofi-height").text(data[7].Height + "cm");
-        $("#Aiofi-status").text(data[7].Status);
+        $("#Kollie-age").text(data[8].Age);
+        $("#Kollie-gender").text(data[8].Gender);
+        $("#Kollie-bday").text(data[8].Birthday);
+        $("#Kollie-height").text(data[8].Height + "cm");
+        $("#Kollie-status").text(data[8].Status);
+        //Anya Part
+        $("#anya-jpname").text(data[9].JapName);
+        $("#anya-age").text(data[9].Age);
+        $("#anya-gender").text(data[9].Gender);
+        $("#anya-bday").text(data[9].Birthday);
+        $("#anya-height").text(data[9].Height + "cm");
+        $("#anya-status").text(data[9].Status);
+        //Reine Part
+        $("#Preine-jpname").text(data[10].JapName);
+        $("#Preine-age").text(data[10].Age);
+        $("#Preine-gender").text(data[10].Gender);
+        $("#Preine-bday").text(data[10].Birthday);
+        $("#Preine-height").text(data[10].Height + "cm");
+        $("#Preine-status").text(data[10].Status);
     })
 
     // Opening pop-ups
@@ -684,8 +698,38 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Aiofi").style.display = "flex";
     });
 
+    document.getElementById("popbutton-ollie").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Kollie").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-anya").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-anya").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-reine").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Preine").style.display = "flex";
+    });
+
 
     //Closing pop-ups
+    document.querySelector(".closepop-Preine").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Preine").style.display = "none";
+    });
+
+    document.querySelector(".closepop-anya").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-anya").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Kollie").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Kollie").style.display = "none";
+    });
+
     document.querySelector(".closepop-Aiofi").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Aiofi").style.display = "none";
