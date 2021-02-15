@@ -382,6 +382,27 @@ $(document).ready(function(){
         $("#Yroberu-bday").text(data[19].Birthday);
         $("#Yroberu-height").text(data[19].Height + "cm");
         $("#Yroberu-status").text(data[19].Status);
+        //Shien Part
+        $("#Kshien-jpname").text(data[20].JapName);
+        $("#Kshien-age").text(data[20].Age);
+        $("#Kshien-gender").text(data[20].Gender);
+        $("#Kshien-bday").text(data[20].Birthday);
+        $("#Kshien-height").text(data[20].Height + "cm");
+        $("#Kshien-status").text(data[20].Status);
+        //Oga Part
+        $("#Aoga-jpname").text(data[21].JapName);
+        $("#Aoga-age").text(data[21].Age);
+        $("#Aoga-gender").text(data[21].Gender);
+        $("#Aoga-bday").text(data[21].Birthday);
+        $("#Aoga-height").text(data[21].Height + "cm");
+        $("#Aoga-status").text(data[21].Status);
+        //Kaoru Part
+        $("#Tkaoru-jpname").text(data[22].JapName);
+        $("#Tkaoru-age").text(data[22].Age);
+        $("#Tkaoru-gender").text(data[22].Gender);
+        $("#Tkaoru-bday").text(data[22].Birthday);
+        $("#Tkaoru-height").text(data[22].Height + "cm");
+        $("#Tkaoru-status").text(data[22].Status);
     })
 
     // Opening pop-ups
@@ -605,9 +626,39 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Yroberu").style.display = "flex";
     });
 
+    document.getElementById("popbutton-shien").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Kshien").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-oga").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Aoga").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-kaoru").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-Tkaoru").style.display = "flex";
+    });
+
 
 
     //Closing pop-ups
+    document.querySelector(".closepop-Tkaoru").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Tkaoru").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Aoga").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Aoga").style.display = "none";
+    });
+
+    document.querySelector(".closepop-Kshien").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-Kshien").style.display = "none";
+    });
+
     document.querySelector(".closepop-Yroberu").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-Yroberu").style.display = "none";
