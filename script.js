@@ -2,8 +2,6 @@ $(document).ready(function(){
     $(".mainpagebutton").click(function(){
         window.location.href = "https://en.hololive.tv/";
     })
-    var Mori, Kiara, Gura, Amelia, Ina;
-    var Civia, Echo, Yogiri, Artia, Doris, Rosalyn;
 
     let url = "https://hololive-f999.restdb.io/rest/holoinfo"
     let APIKEY = "600504ba1346a1524ff12b9b"
@@ -15,6 +13,7 @@ $(document).ready(function(){
     })
     .then(Response => Response.json())
     .then(data => {
+        // Display Data in Console
         console.log(data);
         //Assign Variables
         //Hololive English
@@ -53,13 +52,49 @@ $(document).ready(function(){
         $("#Ina-bday").text(data[4].Birthday);
         $("#Ina-height").text(data[4].Height + "cm");
         $("#Ina-status").text(data[4].Status); 
-        //Hololie China
-        Civia = data[23];
-        Echo = data[24];
-        Yogiri = data[25];
-        Artia = data[26];
-        Doris = data[27];
-        Rosalyn = data[28];
+        //Hololie China 
+        //Civia Part
+        $("#Civia-jpname").text(data[23].JapName);
+        $("#Civia-age").text(data[23].Age);
+        $("#Civia-gender").text(data[23].Gender);
+        $("#Civia-bday").text(data[23].Birthday);
+        $("#Civia-height").text(data[23].Height + "cm");
+        $("#Civia-status").text(data[23].Status); 
+        //Echo Part
+        $("#Echo-jpname").text(data[24].JapName);
+        $("#Echo-age").text(data[24].Age);
+        $("#Echo-gender").text(data[24].Gender);
+        $("#Echo-bday").text(data[24].Birthday);
+        $("#Echo-height").text(data[24].Height + "cm");
+        $("#Echo-status").text(data[24].Status); 
+        //Yogiri Part
+        $("#Yogiri-jpname").text(data[25].JapName);
+        $("#Yogiri-age").text(data[25].Age);
+        $("#Yogiri-gender").text(data[25].Gender);
+        $("#Yogiri-bday").text(data[25].Birthday);
+        $("#Yogiri-height").text(data[25].Height + "cm");
+        $("#Yogiri-status").text(data[25].Status); 
+        //Artia Part
+        $("#Artia-jpname").text(data[26].JapName);
+        $("#Artia-age").text(data[26].Age);
+        $("#Artia-gender").text(data[26].Gender);
+        $("#Artia-bday").text(data[26].Birthday);
+        $("#Artia-height").text(data[26].Height + "cm");
+        $("#Artia-status").text(data[26].Status); 
+        //Doris Part
+        $("#Doris-jpname").text(data[27].JapName);
+        $("#Doris-age").text(data[27].Age);
+        $("#Doris-gender").text(data[27].Gender);
+        $("#Doris-bday").text(data[27].Birthday);
+        $("#Doris-height").text(data[27].Height + "cm");
+        $("#Doris-status").text(data[27].Status); 
+        //Rosalyn Part
+        $("#Rosalyn-jpname").text(data[28].JapName);
+        $("#Rosalyn-age").text(data[28].Age);
+        $("#Rosalyn-gender").text(data[28].Gender);
+        $("#Rosalyn-bday").text(data[28].Birthday);
+        $("#Rosalyn-height").text(data[28].Height + "cm");
+        $("#Rosalyn-status").text(data[28].Status); 
         //INoNaKa Music
         //AZKi Part
         $("#AZKi-jpname").text(data[29].JapName);
@@ -728,6 +763,37 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-watson").style.display = "flex";
     });
 
+    document.getElementById("popbutton-civia").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-civia").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-echo").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-echo").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-yogiri").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-yogiri").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-artia").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-artia").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-doris").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-doris").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-rosalyn").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-rosalyn").style.display = "flex";
+    });
+
+
 
 
 
@@ -1016,5 +1082,35 @@ $(document).ready(function(){
     document.querySelector(".closepop-watson").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-watson").style.display = "none";
+    });
+
+    document.querySelector(".closepop-civia").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-civia").style.display = "none";
+    });
+
+    document.querySelector(".closepop-echo").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-echo").style.display = "none";
+    });
+
+    document.querySelector(".closepop-yogiri").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-yogiri").style.display = "none";
+    });
+
+    document.querySelector(".closepop-artia").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-artia").style.display = "none";
+    });
+
+    document.querySelector(".closepop-doris").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-doris").style.display = "none";
+    });
+
+    document.querySelector(".closepop-rosalyn").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-rosalyn").style.display = "none";
     });
 })

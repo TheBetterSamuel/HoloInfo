@@ -946,6 +946,78 @@ button::after{
     display:none;
 }
 
+.bg-modal-civia {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-echo {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-yogiri {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-artia {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-doris {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
+.bg-modal-rosalyn {
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    display:none;
+}
+
 .modal-content {
     width:80%;
     height:85%;
@@ -1548,6 +1620,66 @@ button::after{
     cursor:pointer;
 }
 
+.closepop-civia {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-echo {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-yogiri {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-doris {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-artia {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
+.closepop-rosalyn {
+    position:absolute;
+    top: 0;
+    right:14px;
+    font-size:49px;
+    font-weight:40px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+
 .inforow{
     width: 90%;
     display: flex;
@@ -1581,6 +1713,7 @@ button::after{
     font-size:20px;
     height: 30%;
 }
+
 /*Hovering functionality*/
 .socialbar a:hover {
     background-color:white;
