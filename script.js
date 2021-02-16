@@ -3,16 +3,7 @@ $(document).ready(function(){
         window.location.href = "https://en.hololive.tv/";
     })
     var Mori, Kiara, Gura, Amelia, Ina;
-    var Risu, Moona, Iofi, Ollie, Melfissa, Reine;
-    var Miyabi, Izuru, Aruran, Rikka, Kira, Suzaku, Astel, Tenma, Roberu, Shien, Oga, Kaoru;
     var Civia, Echo, Yogiri, Artia, Doris, Rosalyn;
-    var AZKi;
-    var Aqua, Shion, Ayame, Choco, Subaru;
-    var Pekora, Marine, Rushia, Noel, Flare;
-    var Kanata, Coco, Watame, Towa, Luna;
-    var Botan, Nene, Lamy, Polka, Aloe;
-    var Fubuki1, Mio, Okayu, Korone;
-    var Mel, Matsuri, Fubuki2, Aki, Akaai, Chris;
 
     let url = "https://hololive-f999.restdb.io/rest/holoinfo"
     let APIKEY = "600504ba1346a1524ff12b9b"
@@ -26,40 +17,50 @@ $(document).ready(function(){
     .then(data => {
         console.log(data);
         //Assign Variables
-        //First section
-        Mori = data[0];
-        Kiara = data[1];
-        Gura = data[2];
-        Amelia = data[3];
-        Ina = data[4];
-        //Second Section
-        Risu = data[5];
-        Moona = data[6];
-        Iofi = data[7];
-        Ollie = data[8];
-        Melfissa = data[9];
-        Reine = data[10];
-        //Third Section
-        Miyabi = data[11];
-        Izuru = data[12];
-        Aruran = data[13];
-        Rikka = data[14];
-        Kira = data[15];
-        Suzaku = data[16];
-        Astel = data[17];
-        Tenma = data[18];
-        Roberu = data[19];
-        Shien = data[20];
-        Oga = data[21];
-        Kaoru = data[22];
-        //Fourth Section
+        //Hololive English
+        //Kiara Part
+        $("#Kiara-jpname").text(data[1].JapName);
+        $("#Kiara-age").text(data[1].Age);
+        $("#Kiara-gender").text(data[1].Gender);
+        $("#Kiara-bday").text(data[1].Birthday);
+        $("#Kiara-height").text(data[1].Height + "cm");
+        $("#Kiara-status").text(data[1].Status); 
+        //Mori Part
+        $("#Mori-jpname").text(data[0].JapName);
+        $("#Mori-age").text(data[0].Age);
+        $("#Mori-gender").text(data[0].Gender);
+        $("#Mori-bday").text(data[0].Birthday);
+        $("#Mori-height").text(data[0].Height + "cm");
+        $("#Mori-status").text(data[0].Status); 
+        //Watson Part
+        $("#Watson-jpname").text(data[3].JapName);
+        $("#Watson-age").text(data[3].Age);
+        $("#Watson-gender").text(data[3].Gender);
+        $("#Watson-bday").text(data[3].Birthday);
+        $("#Watson-height").text(data[3].Height + "cm");
+        $("#Watson-status").text(data[3].Status); 
+        //Gura Part
+        $("#Gura-jpname").text(data[2].JapName);
+        $("#Gura-age").text(data[2].Age);
+        $("#Gura-gender").text(data[2].Gender);
+        $("#Gura-bday").text(data[2].Birthday);
+        $("#Gura-height").text(data[2].Height + "cm");
+        $("#Gura-status").text(data[2].Status); 
+        //Ina Part
+        $("#Ina-jpname").text(data[4].JapName);
+        $("#Ina-age").text(data[4].Age);
+        $("#Ina-gender").text(data[4].Gender);
+        $("#Ina-bday").text(data[4].Birthday);
+        $("#Ina-height").text(data[4].Height + "cm");
+        $("#Ina-status").text(data[4].Status); 
+        //Hololie China
         Civia = data[23];
         Echo = data[24];
         Yogiri = data[25];
         Artia = data[26];
         Doris = data[27];
         Rosalyn = data[28];
-        //Fifth Section
+        //INoNaKa Music
         //AZKi Part
         $("#AZKi-jpname").text(data[29].JapName);
         $("#AZKi-age").text(data[29].Age);
@@ -67,7 +68,7 @@ $(document).ready(function(){
         $("#AZKi-bday").text(data[29].Birthday);
         $("#AZKi-height").text(data[29].Height + "cm");
         $("#AZKi-status").text(data[29].Status); 
-        //Eigth Section
+        //Hololive 4th Gen
         //Kanata Part
         $("#Kanata-jpname").text(data[40].JapName);
         $("#Kanata-age").text(data[40].Age);
@@ -103,12 +104,6 @@ $(document).ready(function(){
         $("#Luna-bday").text(data[44].Birthday);
         $("#Luna-height").text(data[44].Height + "cm");
         $("#Luna-status").text(data[44].Status);
-        //Ninth Section
-        Botan = data[45];
-        Nene = data[46];
-        Lamy = data[47];
-        Polka = data[48];
-        Aloe = data[49];
         //Tenth Section
         //Robocco Part
         $("#Robocco-jpname").text(data[51].JapName);
@@ -138,11 +133,6 @@ $(document).ready(function(){
         $("#Suisei-bday").text(data[62].Birthday);
         $("#Suisei-height").text(data[62].Height + "cm");
         $("#Suisei-status").text(data[62].Status); 
-        //Eleventh Section
-        Fubuki1 = data[55];
-        Mio = data[56];
-        Okayu = data[57];
-        Korone = data[58];
         //Twelth Section
         //Mel Part
         $("#Mel-jpname").text(data[57].JapName);
@@ -713,6 +703,34 @@ $(document).ready(function(){
         document.querySelector(".bg-modal-Preine").style.display = "flex";
     });
 
+    document.getElementById("popbutton-kiara").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-kiara").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-mori").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-mori").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-gura").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-gura").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-ina").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-ina").style.display = "flex";
+    });
+
+    document.getElementById("popbutton-watson").addEventListener("click",
+    function() {
+        document.querySelector(".bg-modal-watson").style.display = "flex";
+    });
+
+
+
+
 
     //Closing pop-ups
     document.querySelector(".closepop-Preine").addEventListener("click",
@@ -973,5 +991,30 @@ $(document).ready(function(){
     document.querySelector(".closepop-luna").addEventListener("click",
     function(){
         document.querySelector(".bg-modal-luna").style.display = "none";
+    });
+
+    document.querySelector(".closepop-kiara").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-kiara").style.display = "none";
+    });
+
+    document.querySelector(".closepop-mori").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-mori").style.display = "none";
+    });
+
+    document.querySelector(".closepop-ina").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-ina").style.display = "none";
+    });
+
+    document.querySelector(".closepop-gura").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-gura").style.display = "none";
+    });
+
+    document.querySelector(".closepop-watson").addEventListener("click",
+    function(){
+        document.querySelector(".bg-modal-watson").style.display = "none";
     });
 })
