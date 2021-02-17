@@ -1,3 +1,39 @@
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
+//When the webpage loads, do this:
+window.addEventListener("load", function(){
+    const loader = document.querySelector(".web-loader");
+    loader.className += " hidden";
+    //When user scrolls down, show button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction(){
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 200) {
+            document.getElementById("scroll_to_top").style.display = "block";
+        } else {
+            document.getElementById("scroll_to_top").style.display = "none";
+            }
+        }
+});
+
+//When user scrolls down, show button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 200) {
+    document.getElementById("scroll_to_top").style.display = "block";
+    } else {
+        document.getElementById("scroll_to_top").style.display = "none";
+    }
+}
+//When user clicks button scroll to top
+function topFunction(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
 $(document).ready(function(){
     $(".mainpagebutton").click(function(){
         window.location.href = "https://en.hololive.tv/";
@@ -13,8 +49,6 @@ $(document).ready(function(){
     })
     .then(Response => Response.json())
     .then(data => {
-        // Display Data in Console
-        console.log(data);
         //Assign Variables
         //Hololive English
         //Kiara Part
