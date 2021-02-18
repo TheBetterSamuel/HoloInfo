@@ -1758,3 +1758,13 @@ button::after{
         visibility:hidden;
     }
 }
+
+.footer_msg{
+    color:rgb(99, 99, 99);
+    display:block;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 20%;
+    text-align:center;
+    width:auto;
+}
